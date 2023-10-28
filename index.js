@@ -11,5 +11,5 @@ server.listen(PORT, () => console.log("Server is running on port 3000"));
 var data = fs.readFileSync('input.txt');
 console.log("testings");
 console.log(fs.readFileSync('input.txt'));
-fs.writeFileSync('input.txt', 'Hi');
+fs.writeFileSync('input.txt', 'Hello');
 console.log(fs.readFileSync('input.txt'));
