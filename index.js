@@ -9,7 +9,5 @@ server.listen(PORT, () => console.log("Server is running on port 3000"));
 
 // Defining new user 
 var data = fs.readFileSync('input.txt');
-console.log("testings");
-console.log(fs.readFileSync('input.txt'));
-fs.writeFileSync('input.txt', 'Hello');
-console.log(fs.readFileSync('input.txt'));
+var val = parseInt(data) + 1;
+fs.writeFileSync('input.txt', val);
